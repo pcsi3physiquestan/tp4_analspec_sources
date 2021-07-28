@@ -1,0 +1,15 @@
+# In _toc.yml
+- file: tp4_analspec.md
+  numbered: true
+
+- part: Analyse d'un signal électrique
+  chapters:
+  - file: notebook/anspec_elec_preliminaire
+  - file: notebook/anspec_elec_tp
+- part: Analyse d'un signal lumineux
+  chapters:
+  - file: notebook/anspec_optique_preliminaire
+  - file: notebook/anspec_optique_tp
+- part: Annexes
+  chapters:
+  - file: notebook/anspec_elec_wobulation
