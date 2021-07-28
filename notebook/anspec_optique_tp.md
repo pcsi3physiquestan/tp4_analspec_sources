@@ -82,7 +82,7 @@ Ces réglages n'étant pas au programme, appeler le professeur pour qu'il les r�
 3. Réaliser cette manipulation et utiliser la cellule ci-dessous pour obtenir l'incertitude sur $A$ __par propagation des variances.__ à partit des mesurandes directs et de leurs incertitudes.
 ````
 ```{code-cell}
-"""Ne pas oublier les bibliothèques scientifiques
+"""Ne pas oublier les bibliothèques scientifiques"""
 
 
 A = 0  # Stocker la valeur de A dans cette variables
@@ -137,10 +137,10 @@ $$
 2. Utiliser la cellule ci-dessous pour déterminer les incertitudes sur les Dm, les indices de réfraction $n$ associés et leur incertitude. On utilisera une méthode de Monte-Carlo.
 3. Obtenir les coefficient $a$ et $b$ du modèle de Cauchy pour le prisme par régression linéaire. On pensera à vérifier avant et après régression la cohérence du modèle et à réaliser les représentations graphiques nécessaires.
 ````
-__Pensez à stocker les vecteurs ou tableaux des N simulations pour utilisatino ultérieur.__
+__Pensez à stocker les vecteurs ou tableaux des N simulations pour utilisation ultérieur.__
 
 ```{code-cell}
-
+"""Les bibliothèqes scientifiques ont normalement déjà été importées"""
 
 ```
 
@@ -156,7 +156,7 @@ La spectrométrie consiste à déterminer le spectre d'un signal lumineux. On va
 ````
 
 ```{code-cell}
-
+"""Pensez à réutiliser les variables précédentes."""
 
 ```
 

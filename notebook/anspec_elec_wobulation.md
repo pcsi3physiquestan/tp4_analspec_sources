@@ -30,7 +30,7 @@ La durée $\Delta t$ n'est pas affichée. Pour la régler. Il faut sortir le sig
 
 $$u(t) = \frac{f_{\max}-f_{\min}}{\Delta t} t+f_{\min} $$
 
-En pratique, $u$ vaut 3V$ pour $f_{max}$ et 0V  pour $f_{min}$. 
+En pratique, $u$ vaut $3V$ pour $f_{max}$ et $0V$  pour $f_{min}$. 
 
 Il faut donc : 
 * brancher cette voie sur l'oscilloscope
