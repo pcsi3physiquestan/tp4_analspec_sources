@@ -1,15 +1,17 @@
-# In _toc.yml
-- file: tp4_analspec.md
+format: jb-book
+root: tp4_analspec.md
+parts:
+- caption: "Analyse d'un signal électrique"
   numbered: true
-
-- part: Analyse d'un signal électrique
   chapters:
   - file: notebook/anspec_elec_preliminaire
   - file: notebook/anspec_elec_tp
-- part: Analyse d'un signal lumineux
+- caption: Analyse d'un signal lumineux
+  numbered: true
   chapters:
   - file: notebook/anspec_optique_preliminaire
   - file: notebook/anspec_optique_tp
-- part: Annexes
+- caption: Annexes
+  numbered: true
   chapters:
   - file: notebook/anspec_elec_wobulation
