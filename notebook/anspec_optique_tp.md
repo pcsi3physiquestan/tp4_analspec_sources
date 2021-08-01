@@ -113,9 +113,9 @@ On donne les longueurs d'onde des raies du mercure :
 |Intensité | Couleur | Longueur d'onde (nm) |
 |:-|-:-|-:|
 |intense | Violet 2 | 404,7 |
-|p \^ale | Violet 1 | 407,8 |
+|p âle | Violet 1 | 407,8 |
 |intense | bleu violet | 435,8 |
-|p\^ale | vert bleu | 491,6 |
+|pâle | vert bleu | 491,6 |
 |très intense | vert | 546,1 |
 |intense | jaune | 577,0 et 579,1|
 

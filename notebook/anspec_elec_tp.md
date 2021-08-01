@@ -55,7 +55,7 @@ Le principe et l'utilisation du multiplieur a déjà été réalisée précédem
 2. Prendre pour $v(t)$ un signal sinusoïdal d'amplitude 5V. On démarrera avec une fréquence $f_0$ pour $v(t)$.
 3. Visualiser à l'oscilloscope les tensions $e(t)$ et $s(t)$. Quand on fait varier la fréquence $f_v$ (avec on le rappelle $f_v \geq f_0$), observe-t-on ce qu'on attend théoriquement? On précisera les similitudes et les différences.
 4. À l'aide de l'analyseur de spectre que vous avec monté, vérifier la(les) fréquence(s) contenues dans $e(t)$.
-5. Étalonner l'analyseur de spectre en déterminant le rapport $G_T =S / E$ (où S est l'amplitude du signal de sortie $s(t)$ et E celle du signal d'entrée $e(t)$) lorsque S est maximale. Rappeler pourquoi peut-on considérer que ce rapport sera le m\^eme quelque soit le signal et quelque soit la composante fréquentielle observée? En pratique, quelle sont les limites de cette hypothèse?
+5. Étalonner l'analyseur de spectre en déterminant le rapport $G_T =S / E$ (où S est l'amplitude du signal de sortie $s(t)$ et E celle du signal d'entrée $e(t)$) lorsque S est maximale. Rappeler pourquoi peut-on considérer que ce rapport sera le même quelque soit le signal et quelque soit la composante fréquentielle observée? En pratique, quelle sont les limites de cette hypothèse?
 ````
 
 ### Analyse manuelle d'un signal créneau

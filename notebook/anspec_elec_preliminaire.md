@@ -47,12 +47,12 @@ Dans l'étude théorique proposée ici, on assimile le filtre passe-bande à son
 
 1. Cas d'un signal à analyser sinusoïdal: $e(t)=Ecos(2 \pi f t)$ avec f inconnue et d'un filtre idéal sélectif: $\Delta f =0$ (seule la fréquence de résonance $f_0$ passe).
     1. Déterminer $u(t)$. En déduire son spectre. Comparer ce spectre à celui de $e(t)$ et $v(t)$. Pourquoi cela montre-t-il que le multiplieur n'est pas un composant linéaire?
-    2. A quelle condition sur $f_v$, la fréquence $f_v - f$ peut-elle \^etre sélectionnée par le filtre (notée Condition 1)? Peut-on, avec les caractéristiques imposée sélectionner la fréquence $f_v+ f$?
+    2. A quelle condition sur $f_v$, la fréquence $f_v - f$ peut-elle être sélectionnée par le filtre (notée Condition 1)? Peut-on, avec les caractéristiques imposée sélectionner la fréquence $f_v+ f$?
     3. Sachant que $f_v$ est connue, proposer un protocole pour déterminer la fréquence f inconnue.
     4. On suppose la condition 1 réalisée, donner l'expression temporelle de $s(t)$ puis son spectre. En déduire que la connaissance de $G_{\max}$, V et k permet de remonter à l'amplitude E.
     5. On définira le rapport: $G_T= \frac{\textrm{Amplitude(s(t))à la résonance}}{\textrm{Amplitude de la composante de e(t)sélectionnée}}$. D'après l'étude précédente, ce gain $G_T$ dépend-il de la composante sélectionné? Expliquer l'intérêt expérimental de cette observation.
 2. Cas d'un signal quelconque $e(t)=\sum E_n \cos(2 \pi f_n t+ \phi_n)$. On suppose toujours $\Delta f=0$.	
-    1. Expliquer gr\^ace à l'analyse précédente qu'un tel dispositif permet de remonter au spectre de $e(t)$ en faisant varier la fréquence $f_v$. On représentera notamment l'évolution de l'amplitude de $s(t)$ notée sm ($f_v$) en fonction de $f_v$ pour le justifier.
+    1. Expliquer grâce à l'analyse précédente qu'un tel dispositif permet de remonter au spectre de $e(t)$ en faisant varier la fréquence $f_v$. On représentera notamment l'évolution de l'amplitude de $s(t)$ notée sm ($f_v$) en fonction de $f_v$ pour le justifier.
 3. Prise en compte de la bande passante finie $\Delta f >0$.
     1. Pour un signal sinusoïdale, représenter à nouveau l'évolution de l'amplitude $s_m$ ($f_v$) en fonction de $f_v$ Quelle différence observe-ton?
     2. En reprenant le cas d'un signal quelconque, expliquer pourquoi la sélectivité du filtre (largeur de la bande-passante) va influer sur la résolution de l'analyseur de spectre.
