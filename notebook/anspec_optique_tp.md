@@ -79,15 +79,10 @@ Ces réglages n'étant pas au programme, appeler le professeur pour qu'il les r�
 :class: tip
 1. Expliquer comment peut-on utiliser le d'autocollimation de la lunette (éclairage interne) pour déterminer l'angle correspond à la normale d'une face du prisme.
 2. Proposez une méthode, utilisant la détermination de l'orientation des faces, pour mesurer l'angle A au sommet du prisme.
-3. Réaliser cette manipulation et utiliser la cellule ci-dessous pour obtenir l'incertitude sur $A$ __par propagation des variances.__ à partit des mesurandes directs et de leurs incertitudes.
+3. Réaliser cette manipulation et obtenir l'incertitude sur $A$ __par propagation des variances__ à partir des mesurandes directs et de leurs incertitudes.
 ````
-```{code-cell}
-"""Ne pas oublier les bibliothèques scientifiques"""
 
 
-A = 0  # Stocker la valeur de A dans cette variables
-uA = 0  # Stocker l'incertitude sur A dans cette variables
-```
 ### Observation qualitative du minimum de déviation
 Le goniomètre est maintenant réglé, l'angle $\theta_0$ mesuré et le prisme posé correctement.
 
@@ -134,13 +129,13 @@ $$
 ````{admonition} Manipulation : Etalonnage
 :class: tip
 1. Déterminez la déviation minimale $D_m(\lambda)$ pour chacune des raies du spectre visible du mercure ainsi que les incertitudes sur $D_m$ (pour chaque source non négligeable).
-2. Utiliser la cellule ci-dessous pour déterminer les incertitudes sur les Dm, les indices de réfraction $n$ associés et leur incertitude. On utilisera une méthode de Monte-Carlo.
+2. Utiliser la cellule ci-dessous pour déterminer les incertitudes sur les Dm, les indices de réfraction $n$ associés et leur incertitude. On utilisera une méthode de Monte-Carlo car les relations entre les grandeurs ne sont pas du tout linéaires.
 3. Obtenir les coefficient $a$ et $b$ du modèle de Cauchy pour le prisme par régression linéaire. On pensera à vérifier avant et après régression la cohérence du modèle et à réaliser les représentations graphiques nécessaires.
 ````
 __Pensez à stocker les vecteurs ou tableaux des N simulations pour utilisation ultérieur.__
 
 ```{code-cell}
-"""Les bibliothèqes scientifiques ont normalement déjà été importées"""
+"""Ne pas oublier les bibliothèques scientifiques"""
 
 ```
 
@@ -170,5 +165,5 @@ Comme précédemment, la mesure est plus précise au minimum de déviation mais 
 ````{admonition} Manipulation
 :class: tip
 1. Sachant que pour $p=0$, $i=\theta$ et que le réseau est partiellement réfléchissant. Proposer une méthode utilisant l'éclairage interne de la lunette pour bien placer le réseau tel qu'on soit en incidence normale puis réaliser cette manipulation.
-2. Proposer puis réaliser un protocole permettant permettant de remonter aux valeurs des deux longueurs d'onde du doublet.
+2. Proposer puis réaliser un protocole permettant permettant de remonter aux valeurs des deux longueurs d'onde du doublet (il n'est pas demandé de calcul d'incertitude).
 ````
