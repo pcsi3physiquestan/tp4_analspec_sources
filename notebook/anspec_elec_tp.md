@@ -13,7 +13,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# Réalisation pratique
+# (TP) Réalisation pratique
 
 L'objectif du TP est de construire un analyseur de spectre analogique, c'est-à-dire un dispositif capable de tracer (ici à l'oscilloscope) le spectre d'un signal électrique entrant.
 
@@ -103,5 +103,5 @@ On rappelle que pour qu'il réalise sa fonction, il faut que :
 ````{admonition} Manipulation
 :class: tip
 1. Proposer des valeurs cohérentes pour R et C avec les contraintes imposées.
-2. Observer alors le tracé expérimental du spectre et retrouver les valeurs des fréquence du fondamental et des harmoniques des signaux avec leurs incertitudes. Représenter graphiquement (à la main) le spectre avecles incertitudes.
+2. Observer alors le tracé expérimental du spectre et retrouver les valeurs des fréquence du fondamental et des harmoniques des signaux avec leurs incertitudes (on utilisera __la propagation des variances__ pour estimer les incertitudes des mesurandes indirectes). Représenter graphiquement (à la main) le spectre avecles incertitudes.
 ````

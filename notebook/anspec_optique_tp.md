@@ -13,7 +13,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# Réalisation pratique
+# (TP) Réalisation pratique
 
 Un goniomètre est un appareil qui sert à effectuer des mesures d'angles (de gônia ``angle'' et metron ``mesure, évaluation''). Il possède une plateforme pouvant tourner autour d'un axe et sur laquelle on placera un dispositif permettant de disperser la lumière: en 1ère année, un prisme. Un collimateur permet d'éclairer le prisme par un faisceau de lumière parallèle, le faisceau émergent pouvant être visé par une lunette autocollimatrice réglée à l'infini. L'oculaire de la lunette est muni d'un réticule pour réaliser le pointage du faisceau émergent. Un système de graduation sous la lunette permet une lecture de la position angulaire de la lunette.
 
@@ -111,7 +111,7 @@ Vous venez d'observer l'existence d'un minimum de déviation $D_m$, unique pour 
 On donne les longueurs d'onde des raies du mercure :
 
 |Intensité | Couleur | Longueur d'onde (nm) |
-|:-|-:-|-:|
+|:-|:-:|-:|
 |intense | Violet 2 | 404,7 |
 |p âle | Violet 1 | 407,8 |
 |intense | bleu violet | 435,8 |
