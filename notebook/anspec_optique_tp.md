@@ -130,7 +130,7 @@ $$
 :class: tip
 1. Déterminez la déviation minimale $D_m(\lambda)$ pour chacune des raies du spectre visible du mercure ainsi que les incertitudes sur $D_m$ (pour chaque source non négligeable).
 2. Utiliser la cellule ci-dessous pour déterminer les incertitudes sur les Dm, les indices de réfraction $n$ associés et leur incertitude. On utilisera une méthode de Monte-Carlo car les relations entre les grandeurs ne sont pas du tout linéaires.
-3. Obtenir les coefficient $a$ et $b$ du modèle de Cauchy pour le prisme par régression linéaire. On pensera à vérifier avant et après régression la cohérence du modèle et à réaliser les représentations graphiques nécessaires.
+3. Obtenir les coefficient $a$ et $b$ du modèle de Cauchy pour le prisme par régression linéaire. On pensera à vérifier avant et après régression la cohérence du modèle et à réaliser les représentations graphiques nécessaires. (On pourra négliger les incertitudes sur les longueurs d'onde).
 ````
 __Pensez à stocker les vecteurs ou tableaux des N simulations pour utilisation ultérieur.__
 

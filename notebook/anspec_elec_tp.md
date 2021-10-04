@@ -37,12 +37,12 @@ On donne les valeurs théoriques pour comparaison :
 \begin{align*}
   f_0 &= \frac{1}{2 \pi C} \sqrt{\frac{R_1+R_2}{R_1R_2R_3}}\\
   \Delta f &= \frac{1}{\pi R_3 C}\\
-  H_{\max}=\frac{R_3}{2R_1}
+  H_{\max}&=\frac{R_3}{2R_1}
 \end{align*}
 ````
 
 ### Etude du multiplieur
-Le principe et l'utilisation du multiplieur a déjà été réalisée précédemment. Vérifier simplement son bon fonctionnement en vérifiant que la multiplicatino de deux signaux de fréquences éloignées (_ce ne sera pas le cas ensuite par contre_) réalise bien une modulation d'amplitude.
+Le principe et l'utilisation du multiplieur a déjà été réalisée précédemment. Vérifier simplement son bon fonctionnement en vérifiant que la multiplication de deux signaux de fréquences éloignées (_ce ne sera pas le cas ensuite par contre_) réalise bien une modulation d'amplitude.
 
 * Le multiplieur a un coefficient de multiplication d'environ $k=0,1\rm{V^{-1}}$
 * On rappelle qu'il doit être alimenté par une alimentation symétrique.
@@ -54,8 +54,9 @@ Le principe et l'utilisation du multiplieur a déjà été réalisée précédem
 1. Réaliser le montage complet et choisir comme signal $e(t)$ à analyser un signal sinusoïdal de fréquence $500Hz$.
 2. Prendre pour $v(t)$ un signal sinusoïdal d'amplitude 5V. On démarrera avec une fréquence $f_0$ pour $v(t)$.
 3. Visualiser à l'oscilloscope les tensions $e(t)$ et $s(t)$. Quand on fait varier la fréquence $f_v$ (avec on le rappelle $f_v \geq f_0$), observe-t-on ce qu'on attend théoriquement? On précisera les similitudes et les différences.
-4. À l'aide de l'analyseur de spectre que vous avec monté, vérifier la(les) fréquence(s) contenues dans $e(t)$.
+4. À l'aide de l'analyseur de spectre que vous avez monté, vérifier la(les) fréquence(s) contenues dans $e(t)$.
 5. Étalonner l'analyseur de spectre en déterminant le rapport $G_T =S / E$ (où S est l'amplitude du signal de sortie $s(t)$ et E celle du signal d'entrée $e(t)$) lorsque S est maximale. Rappeler pourquoi peut-on considérer que ce rapport sera le même quelque soit le signal et quelque soit la composante fréquentielle observée? En pratique, quelle sont les limites de cette hypothèse?
+6. Estimer l'incertitude sur $G_T$ par propagation des variances.
 ````
 
 ### Analyse manuelle d'un signal créneau
@@ -72,7 +73,7 @@ Cette analyse manuelle permettra de bien comprendre le principe de sélection de
 ````{admonition} Manipulation
 :class: tip
 1. Préciser le protocole permettant de déterminer les fréquences et les amplitudes du fondamental et des harmoniques du signal.
-2. Réaliser les mesures pour le fondamental et une harmonique. Commenter la précision des mesures? Quels sont les facteurs qui causent ces imprécisions?
+2. Réaliser les mesures pour le fondamental et une harmonique. Commenter la précision des mesures? Quels sont les facteurs qui causent ces imprécisions? (On ne demande pas de mesure d'incertitude).
 ````
 
 ### Analyse automatique d'un signal créneau
@@ -84,7 +85,7 @@ Avant de réaliser l'automatisation, il convient d'observer ce que le GBF déliv
 ````{admonition} Manipulation préliminaire
 :class: tip
 1. Débrancher le GBF délivrant $v(t)$ du circuit et observer ce signal sur l'oscilloscope.
-2. Activer la wobulation en démarrant à $f_0$ jusqu'à $5kHz$ en faisant en sorte que le balyage en fréquence dure 1 secondes. Des explications sur les réglages sont donnés [ici](wobulation).
+2. Activer la wobulation en démarrant à $f_0$ jusqu'à $5kHz$ en faisant en sorte que le balyage en fréquence dure 1 secondes. Des explications sur les réglages sont donnés [ici](wobulation). On déterminera la relation $u(f)$ donnant la tension délivrée par la sortie `SWEEP IN/OUT` en fonction de la fréquence.
 3. Observer que la fréquence du signal varie effectivement au cours du temps. Vous pouvez rebrancher le GBF sur le multiplier et observer la sortie. Observe-t-on "l'amplitude" en sortie ?
 ````
 
@@ -103,5 +104,5 @@ On rappelle que pour qu'il réalise sa fonction, il faut que :
 ````{admonition} Manipulation
 :class: tip
 1. Proposer des valeurs cohérentes pour R et C avec les contraintes imposées.
-2. Observer alors le tracé expérimental du spectre et retrouver les valeurs des fréquence du fondamental et des harmoniques des signaux avec leurs incertitudes (on utilisera __la propagation des variances__ pour estimer les incertitudes des mesurandes indirectes). Représenter graphiquement (à la main) le spectre avecles incertitudes.
+2. Observer alors le tracé expérimental du spectre et retrouver les valeurs des fréquence du fondamental et des harmoniques des signaux avec leurs incertitudes (on utilisera __la propagation des variances__ pour estimer les incertitudes des mesurandes indirectes). Représenter graphiquement (à la main) le spectre avec les incertitudes.
 ````
