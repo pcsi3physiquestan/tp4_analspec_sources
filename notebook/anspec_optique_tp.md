@@ -164,6 +164,6 @@ Comme précédemment, la mesure est plus précise au minimum de déviation mais 
 
 ````{admonition} Manipulation
 :class: tip
-1. Sachant que pour $p=0$, $i=\theta$ et que le réseau est partiellement réfléchissant. Proposer une méthode utilisant l'éclairage interne de la lunette pour bien placer le réseau tel qu'on soit en incidence normale puis réaliser cette manipulation.
+1. Sachant que pour $p=0$, $i=0$ et que le réseau est partiellement réfléchissant. Proposer une méthode utilisant l'éclairage interne de la lunette pour bien placer le réseau tel qu'on soit en incidence normale puis réaliser cette manipulation.
 2. Proposer puis réaliser un protocole permettant permettant de remonter aux valeurs des deux longueurs d'onde du doublet (il n'est pas demandé de calcul d'incertitude).
 ````
