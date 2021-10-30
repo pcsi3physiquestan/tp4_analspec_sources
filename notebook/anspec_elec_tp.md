@@ -86,7 +86,7 @@ Avant de réaliser l'automatisation, il convient d'observer ce que le GBF déliv
 :class: tip
 1. Débrancher le GBF délivrant $v(t)$ du circuit et observer ce signal sur l'oscilloscope.
 2. Activer la wobulation en démarrant à $f_0$ jusqu'à $5kHz$ en faisant en sorte que le balyage en fréquence dure 1 secondes. Des explications sur les réglages sont donnés [ici](wobulation). On déterminera la relation $u(f)$ donnant la tension délivrée par la sortie `SWEEP IN/OUT` en fonction de la fréquence.
-3. Observer que la fréquence du signal varie effectivement au cours du temps. Vous pouvez rebrancher le GBF sur le multiplier et observer la sortie. Observe-t-on "l'amplitude" en sortie ?
+3. Observer que la fréquence du signal varie effectivement au cours du temps. Vous pouvez rebrancher le GBF sur le multiplieur et observer la sortie. Observe-t-on "l'amplitude" en sortie ?
 ````
 
 Pour palier à ce problème, on propose de placer un [montage détecteur de crête](detecteur) en sortie.
