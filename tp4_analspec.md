@@ -14,10 +14,10 @@ kernelspec:
   name: python3
 ---
 
-# Analyse spectrale
+# Ondes
 
-Cette séquence est composée de 2 TPs de 4h :
-* le premier consiste en l'analyse spectrale d'un signal lumineux au moyen d'un dispositif permettant des mesures d'angles précises : le __goniomètre__. Il sera utilisé avec un prisme (utilisation de son caractère dispersif) puis avec un réseau (utilisation du phénomène d'interférences)
-* le second consiste en l'analyse spectrale d'un signal électrique. au moyen d'un analyseur de spectre qu'on construira soi-même.
+Cette séquence est composée de 2 séquences :
+* un TP de 4h  sur le goniomètre à réseau illustrant l'utilisation des interférences pour faire de la spectroscopie
+* deux TPs de 2h qui seront réalisés durant la même séance. Pendant que 3 groupes travailleront sur la corde de Melde et les ondes stationnaires, les 3 autres groupes travailleront sur l'étude des spectres et les interférences par fente d'Young. Au bout de 2h, les deux groupes intervertiront les postes.
 
-Les contraintes matériel imposent une rotation : 6 groupes travailleront en optique tandis que 6 groupes travailleront en électrocinétique. La séance suivante, les groupes échangeront de TP.
+La semaine suivante, les groupes inverseront les séquences.

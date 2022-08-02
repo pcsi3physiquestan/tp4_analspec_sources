@@ -72,7 +72,53 @@ Nous allons déterminer la direction du faisceau incident (non dévié par le pr
 ### Orientation de la plateforme et de la lunette
 Ces réglages n'étant pas au programme, appeler le professeur pour qu'il les réalise.
 
+## Goniomètre à réseau
+
+### Travail en incidence normale.
+On va réaliser une première étude en placant le réseau en incidence normale.
+
+````{admonition} Positionnement du réseau
+:class: tip
+1. Le réseau étant positionné au centre de la plateforme, déplacer la lunette pour viser l'ordre $p=0$ (en face du colimateur, on a alors $i = \theta$).
+2. Le réseau étant semi-réfléchissant, on peut l'éclairer avec la lunette autocolimatrice. Faire tourner la plateforme (sans toucher à la lunette) jusqu'à superposer le réticule et son image : le réseau est alors positionné en incidence normale.
+````
+
+### Nombre de traits par mm N
+On va utiliser la lampe au mercure comme étalon pour déterminer le nombre N de traits __par millimètre__ puis les longueur d'onde du doublet du sodium. On donne les longueurs d'onde des raies du mercure :
+
+|Intensité | Couleur | Longueur d'onde (nm) |
+|:-|:-:|-:|
+|intense | Violet 2 | 404,7 |
+|pâle | Violet 1 | 407,8 |
+|intense | bleu violet | 435,8 |
+|pâle | vert bleu | 491,6 |
+|très intense | vert | 546,1 |
+|intense | jaune | 577,0 et 579,1|
+
+````{admonition} Détermination de N
+:class: tip
+1. Déterminer, avec incertitude, les angles $\theta$ pour chaque longueur d'onde aux ordres $p=1$ (ou $p=2$ si c'est possible).
+2. En déduire pour chaque mesure la valeur de $N$ avec incertitude puis déduire par moyenne des valeurs le nombre de traits par millimètre $N$ ainsi que l'incertitude sur N (on utilisera une méthode de Monte-Carlo à cause du sinus).
+3. Déterminer N par régression linéaire et vérifier _sommairement_ la cohérence avec la valeur précédente. On ne demande pas d'incertitude de mesure pour la régression linéaire.
+````
+
+Une cellule est disponible ci-dessous pour les estimations de N et la régression linéaire.
+
+```{code-cell}
+:tags: [remove-output,hide-input]
+"""Pensez à importer les bibliothèques scientifiques"""
+
+```
+
+````{admonition} Utilisation pour la spectroscopie
+:class: tip
+1. Remplacer la lampe au mercure par une lampe au sodium et déterminer, avec incertitude, la mesure de la longueur d'onde de la première raie du sodium puis de l'écart $\Delta \lambda$ du doublet.
+2. __Comparer__ aux valeurs tabulées.
+````
+
 ## Goniomètre à prisme
+
+Remplacer le réseau par un prisme et vérifier que vous arrivez à observer les rayons déviés à l'oeil, puis à la lunette (attention au cas de réflexion totale, cf. l'exercice). Si c'est le cas, vous pouvez continuer, sinon appeler le professeur pour qu'il règle l'orientation du prisme. _Note : En toute rigueur, il faudrait quoiqu'il arrive régler l'orientation du prisme. On ne le fait pas ici, sauf nécessité, pour gagner du temps._
 
 ### Mesure de l'angle A
 ````{admonition} Manipulation
@@ -98,7 +144,7 @@ On ne s'intéresse dans ce paragraphe qu'à la raie verte du mercure.
 2. Choisir un angle d'incidence permettant d'observer les rayons sortant par la lunette et faire tourner la plateforme pour observer le minimum de déviation.
 2. Commencez par mesurer la déviation minimale $D_m$ observée pour la raie verte. Expliquer quel est l'intérêt de travailer au minimum de déviation.
 ````
-
+_Note : on aura pu, pour la même raison travailler au minimum de déviation avec le réseau._
   
 ### Minimum de déviation et longueur d'onde
 Vous venez d'observer l'existence d'un minimum de déviation $D_m$, unique pour une onde monochromatique. Nous allons maintenant déterminer le minimum de déviation pour chaque longueur d'onde du mercure. Cette étude servira d'étalonnage pour mesurer la longueur d'onde du doublet du sodium.
@@ -154,16 +200,3 @@ La spectrométrie consiste à déterminer le spectre d'un signal lumineux. On va
 """Pensez à réutiliser les variables précédentes."""
 
 ```
-
-
-## Augmentation de la résolution: utilisation d'un réseau
-
-Remplacer le prisme par le réseau à disposition (_en toute rigueur, on devrait recommencer les réglages d'orientation mais on ne le fera pas ici par manque de temps, vérifier simplement que vous observer des raies en sortie_).
-
-Comme précédemment, la mesure est plus précise au minimum de déviation mais pour gagner du temps sur l'exploitation. On va se placer en incidence normale $i = 0$.
-
-````{admonition} Manipulation
-:class: tip
-1. Sachant que pour $p=0$, $i=0$ et que le réseau est partiellement réfléchissant. Proposer une méthode utilisant l'éclairage interne de la lunette pour bien placer le réseau tel qu'on soit en incidence normale puis réaliser cette manipulation.
-2. Proposer puis réaliser un protocole permettant permettant de remonter aux valeurs des deux longueurs d'onde du doublet (il n'est pas demandé de calcul d'incertitude).
-````
