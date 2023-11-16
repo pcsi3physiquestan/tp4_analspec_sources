@@ -27,7 +27,7 @@ où $i$ est l'angle du faisceau incident sur le réseau, $\theta$ l'angle du fai
 
 Pour chaque ordre $p=-2, p=-1, p=0, p=1, p=2...$ on observera des interférences constructives : une raie lumineuse de la couleur correspondant à $\lambda$. Comme $\theta$ dépend de $\lambda$ on peut distinguer plusieurs composantes spectrales d'un même signal lumineux.
 
-_La démonstration de la relatino des réseaux est identique à la recherche d'interférence constructives entree 2 fentes (s'il y a interférences constructives entre deux fentes successives, il y aura interférences constructives entre toutes les fentes). La distance entre les deux fentes étant alors $a = \frac{1}{N}$, on retrouve la relation proposée._ __S'entrainer à la retrouver.__
+_La démonstration de la relation des réseaux est identique à la recherche d'interférence constructives entree 2 fentes (s'il y a interférences constructives entre deux fentes successives, il y aura interférences constructives entre toutes les fentes). La distance entre les deux fentes étant alors $a = \frac{1}{N}$, on retrouve la relation proposée._ __S'entrainer à la retrouver.__
 
 ## Goniomètre à prisme
 L'étude préliminaire a déjà été réalisée dans le cours d'optique. On reprendra l'exercice en s'attardant notamment sur les points suivants :

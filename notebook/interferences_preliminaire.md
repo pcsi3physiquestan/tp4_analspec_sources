@@ -16,6 +16,9 @@ kernelspec:
 
 # Préliminaires
 
+Ce TP dure 2h. Au bout de 2h, vous échangerez de poste avec un groupe travaillant sur la corde de Melde.
+
+
 ## Analyseur de spectre SpectrOvio
 
 Le capteur utilisé ici est un analyseur de spectre qui se base sur la décomposition de la lumière. Le capteur est d'abord composé d'une fibre optique dont l'entrée capte un signal lumineux et la sortie est reliée à un système dispersif (2 miroirs concaves et un réseau. On pourra s'imaginer le principe du prisme qui fonctionne de la même manière). La lumière est alors déviée suivant des angles différents suivant sa longueur d'onde. Un barrette CCD capte alors le signal dans les différentes directions et on obtient ainsi le spectre de la lumière étudiée. 

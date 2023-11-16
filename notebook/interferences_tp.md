@@ -23,7 +23,7 @@ Les Lasers peuvent être extrêmement dangereux pour la vue. Il ne faut JAMAIS p
 
 ````{admonition} Obtenir différents spectre lumineux
 :class: tip
-1. Eclairer le capteur au moyen de diverses sources lumineuses proposées et observer et décrire les spectres obtenus gr\^ace à l'option ``Spectrographe''.
+1. Eclairer le capteur au moyen de diverses sources lumineuses proposées et observer et décrire les spectres obtenus grâce à l'option "Spectrographe".
     * Commencer par la lampe à incandescence pour vérifier que la correction du capteur est bien réalisée. Si l'intensité chute pour les couleurs rouge-orange, c'est que la correction du capteur n'a pas été réalisée correctement.
     * Allumer la lampe spectrale (noter laquelle) quelques temps avant d'analyser son spectre car elle met un certain temps avant d'atteindre un régime permanent.
     * Vérifier que le LASER arrive bien sur la fibre (attention, il peut y avoir saturation du capteur).
@@ -50,7 +50,7 @@ On utilise à nouveau le LASER.
 
 ````{admonition} Etude des interférences
 :class: tip
-1. Eclairer les fentes doubles avec le LASER et mesurer l'interfrange sur un écran situé à une distance D. Vérifier que l'interfrange a à peu près la valeur attendue (on ne demande pas de calcul d'incertitude) dans le cadre d'étude théorique. __Attention à ne pas confondre les variations d'amplitude liées à la diffraction à celles liées aux interférences.
+1. Eclairer les fentes doubles avec le LASER et mesurer l'interfrange sur un écran situé à une distance D. Vérifier que l'interfrange a à peu près la valeur attendue (on ne demande pas de calcul d'incertitude) dans le cadre d'étude théorique. __Attention à ne pas confondre les variations d'amplitude liées à la diffraction à celles liées aux interférences.__
 2. Faire la même manipulation avec les autres fentes doubles.
 3. Remplacer l'écran par la barette CCD et reprendre la mesure précédente.
 ````

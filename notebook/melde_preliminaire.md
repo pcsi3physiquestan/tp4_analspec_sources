@@ -17,6 +17,8 @@ kernelspec:
 (stroboscope)=
 # Préliminaires
 
+Ce TP dure 2h. Au bout de 2h, vous échangerez de poste avec un groupe travaillant sur les interférences.
+
 ## Effet stroboscope
 Le principe des ondes stationnaires a été expliqué en cours. On présente ici l'utilisation du stroboscope pour observer la forme de la corde.
 
